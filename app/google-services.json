@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "118574613880",
+    "firebase_url": "https://hanuman-chalisa-f9dd2.firebaseio.com",
+    "project_id": "hanuman-chalisa-f9dd2",
+    "storage_bucket": "hanuman-chalisa-f9dd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118574613880:android:d8b7dcfd882d353d",
+        "android_client_info": {
+          "package_name": "com.nandi.hanumanchalisa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118574613880-clqu4rj19sk1q76pr4a8lak70ihqkhkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd6Zm36xyDNxU_gY8RUCtpQn7E2wFK9HQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118574613880:android:d3172230c6dcd500",
+        "android_client_info": {
+          "package_name": "com.nandi.hanuman.chalisa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118574613880-clqu4rj19sk1q76pr4a8lak70ihqkhkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd6Zm36xyDNxU_gY8RUCtpQn7E2wFK9HQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

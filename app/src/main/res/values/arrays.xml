@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sections">
+        <item >Shree Ganesh Mantra </item>
+        <item >Gayatri Mantra </item>
+        <item >Hanuman Mantra </item>
+        <item >MahaKali Mantra</item>
+        <item >Kubera Mantra</item>
+        <item >MahaLakshmi Mantra</item>
+        <item >MahaMrityunjaya Mantra </item>
+        <item >Om Namah Shivaya Mantra </item>
+        <item >Shanidev Mantra</item>
+        <item >Shree Krishna Mantra</item>
+        <item >Sai Baba Mantra</item>
+    </string-array>
+</resources>

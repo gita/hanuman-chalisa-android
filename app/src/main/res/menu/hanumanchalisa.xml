@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/menu_action_share"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_share_white_24dp"/>
+    <item
+        android:id="@+id/action_change_language"
+        android:title="@string/menu_action_language"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_language_white_24dp"/>
+    <item
+        android:id="@+id/action_about_hanuman"
+        android:title="@string/menu_action_about_hanuman"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_info_white_24dp"/>
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/menu_action_about"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_info_white_24dp"/>
+</menu>

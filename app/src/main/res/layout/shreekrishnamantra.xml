@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shreekrishnamantra"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+
+    android:background="@drawable/hanuman"
+    android:alpha="1"
+    tools:context="com.nandi.hanuman.chalisa.MainActivity">
+    <RelativeLayout
+        android:id="@+id/mantra1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:id="@+id/flower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flower"
+            />
+        <ImageView
+            android:id="@+id/flower1"
+            android:layout_toRightOf="@id/flower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flower1"
+            />
+        <ImageView
+            android:id="@+id/flower2"
+            android:layout_toRightOf="@id/flower1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flower"
+            />
+        <ImageView
+            android:id="@+id/flower3"
+            android:layout_toRightOf="@id/flower2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flower2"
+            />
+        <ImageView
+            android:id="@+id/flower4"
+            android:layout_toRightOf="@id/flower3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flower"
+            />
+        <ImageView
+            android:id="@+id/flower5"
+            android:layout_toRightOf="@id/flower4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flower3"
+            />
+        <ImageView
+            android:id="@+id/flower6"
+            android:layout_toRightOf="@id/flower5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flower"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_below="@id/flower"
+            android:text="@string/my_mantra_new7"
+            android:id="@+id/textView"
+            android:gravity="center"
+            android:background="@android:color/holo_orange_dark"
+            android:alpha="1"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:textStyle="normal|bold"
+            android:textSize="13sp"
+            android:textColor="#ffff00"/>
+
+
+        <EditText
+            android:layout_width="176dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView16"
+            android:imeOptions="actionDone"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:layout_above="@+id/btn4"
+            android:hint="Input number"
+            android:background="#ffffff"
+            android:inputType="number"
+            android:digits="1234567890"
+            android:maxLength="10"
+            android:textStyle="normal|bold"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="#000000"/>
+
+
+
+        <SeekBar
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+
+            android:maxHeight="20dp"
+            android:minHeight="20dp"
+
+            android:layout_above="@+id/textView13"
+            android:layout_toRightOf="@id/textView16"
+            android:id="@+id/seekBar" />
+
+
+
+
+
+
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+
+            android:text="COUNT:"
+
+            android:textStyle="normal|bold"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_above="@+id/btn4"
+            android:layout_toRightOf="@id/textView16"
+            android:textColor="#ffffff"
+
+            android:id="@+id/textView13"
+
+            />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+
+            android:layout_alignParentBottom="true"
+            android:text="11"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonshape2"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:id="@+id/btn4"
+            android:textStyle="normal|bold" />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/btn4"
+            android:layout_alignParentBottom="true"
+            android:text="21"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonshape2"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:id="@+id/btn5"
+            android:textStyle="normal|bold" />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/btn5"
+            android:layout_alignParentBottom="true"
+            android:text="51"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonshape2"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:id="@+id/btn6"
+            android:textStyle="normal|bold" />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+
+            android:layout_toRightOf="@id/btn6"
+            android:layout_alignParentBottom="true"
+            android:text="108"
+            android:textSize="13sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonshape2"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:id="@+id/btn7"
+            android:textStyle="normal|bold" />
+
+        <TextView
+
+            android:layout_width="88dp"
+            android:layout_height="20dp"
+
+            android:text=" "
+            android:layout_above="@+id/btn4"
+            android:layout_toRightOf="@id/textView13"
+            android:textStyle="normal|bold"
+            android:textSize="15sp"
+            android:gravity="center"
+
+            android:textColor="#ffffff"
+            android:id="@+id/textView1"
+
+            />
+
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+
+
+            android:layout_alignParentBottom="true"
+            android:textColor="#000000"
+            android:src="@android:drawable/ic_media_play"
+            android:background="@drawable/buttonshape2"
+            android:shadowColor="#A8A8A8"
+            android:gravity="center"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:id="@+id/btn1"
+            android:layout_toRightOf="@id/btn7"
+            android:textStyle="normal|bold" />
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+
+            android:layout_toRightOf="@id/btn1"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:src="@android:drawable/ic_media_pause"
+            android:background="@drawable/buttonshape2"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:id="@+id/btn2"
+            android:textStyle="normal|bold" />
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/btn2"
+            android:src="@android:drawable/checkbox_off_background"
+            android:background="@drawable/buttonshape2"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:id="@+id/btn3"
+            android:textStyle="normal|bold" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
